@@ -12,7 +12,7 @@ s1 = df['23.82729036706873'].to_list()
 print('Range', min(s1),max(s1))
 
 #import visualization tools
-
+%matplotlib inline
 import matplotlib.pyplot as plots
 plots.style.use('fivethirtyeight')
 

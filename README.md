@@ -1,26 +1,4 @@
-# Trimpoint-Viewble
-Interview Problems and solutions. 
-
-Please answer the following questions and save your answers in a public
-GitHub repository. You have 24 hours to submit your answer.
-
-1) Use the table below for problem 1 a - c
-
-a) Based on the following two tables, write a SQL query that returns the
-name and student ID of all students that have a higher total marks score
-than the student that has StudentID of 'V002’
-
-b) Assume that the two tables are pandas data frame variables. Based on
-those two data frames--utilizing pandas--write a python function that
-returns a new data frame version of name_table, where each name
-containing the letter “e” is uppercased, and lowercased otherwise (e.g.
-“Edward” → “EDWARD”, “Bob” → “bob”).
-
-c) Now write a function that takes in the output of 1) b) and mark_table and
-returns a data frame that summarizes the average grade of uppercase
-names and lowercase names
-name_table mark_table
-
+Answers to Questions:
 2) Consider the data set below. Write some python code that illustrates
 some common feature engineering and/or data preparation tasks.
 
@@ -39,8 +17,9 @@ No code is necessary for the following questions:
 3) If you were asked to impute null values in a column of a file that was
 365 Gigabytes, what would you do? What tools would you use?
 What tools would you NOT use?
-
-  _to input null values in an entire column of a large file. I would use either python or sql. to do this in python I would use the datascience library to create a new table using the column header and then a zero array that is set to the length of the table and then join the new table and the old one. In sequal I would use the UPDATE TABLE_NAME SET [COLUMN_NAME] = NULL SCRIPT. The tool that I would not use would be a loop in python as that would take a very long time to iterate over each line just to add a NULL values. I also would stray away from excel even though this would be easiest it is above the maximum size file that excel can handle. 
+\N
+ANSWER3:
+  _to input null values in an entire column of a large file. I would use either python or sql. to do this in python I would use the datascience library to create a new table using the column header and then a zero array that is set to the length of the table and then join the new table and the old one. In sequal I would use the UPDATE TABLE_NAME SET [COLUMN_NAME] = NULL SCRIPT. The tool that I would not use would be a loop in python as that would take a very long time to iterate over each line just to add a NULL values. I also would stray away from excel even though this would be easiest it is above the maximum size file that excel can handle. \N
   _
 4) What would you do if you were asked to do the above task every
 Thursday morning at 2:00am?
@@ -50,4 +29,4 @@ Thursday morning at 2:00am?
 and why?
   My favorite mathmatician is Carl Gauss simply put I beleive that his work in statistics and seeing the patterns that are prevelant in the real world and in math is astounding. the usefullness of a normal distribution in statistics as well the simplicity with which his equations can be used to see the probabilities of the world around us is fantastical. 
   
-Thanks for taking the time to participate in this exercise!
+
